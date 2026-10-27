@@ -1,0 +1,16 @@
+import { dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { FlatCompat } from '@eslint/eslintrc'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const compat = new FlatCompat({ baseDirectory: __dirname })
+
+export default [
+  ...compat.extends('next/core-web-vitals'),
+  {
+    rules: {
+      'import/no-anonymous-default-export': 'off',
+      '@next/next/no-img-element': 'off',
+    },
+  },
+]

@@ -1,0 +1,200 @@
+import type { AppStrings } from '../schema'
+
+export const sv: AppStrings = {
+  common: {
+    close: 'Stäng',
+    continue: 'Fortsätt',
+    facebook: 'Facebook',
+  },
+  main: {
+    badge: 'META VERIFIED',
+    releaseDate: 'Godkänd:',
+    title: 'Din sida är nu Meta Verified',
+    lead1:
+      'Grattis! Din sida uppfyller kriterierna och är godkänd för Meta Verified.',
+    lead2:
+      'Slutför de sista aktiveringsstegen för att låsa upp ökad trovärdighet, skydd, prioriterad support och publikens förtroende. Din referenskod finns nedan.',
+    caseId: 'Aktiveringsreferens:',
+    reviewStatusLabel: 'Status:',
+    reviewStatus: 'Godkänd — slutlig aktivering väntar',
+    programScope:
+      'Meta Verified for Business — det officiella verifieringsprogrammet för berättigade sidor och organisationer.',
+    activationStepsTitle: 'Aktiveringsprocess',
+    step1: 'Bekräfta företagsinformation',
+    step2: 'Verifiera kontosäkerhet',
+    step3: 'Aktivera din Meta Verified-märkning',
+    securityNotice:
+      'Dina uppgifter skickas via en säker anslutning och används endast för att slutföra Meta Verified-verifiering enligt Metas',
+    securityNoticeEnd: '.',
+    helpPrompt: 'Behöver du hjälp? Besök',
+    estimatedDuration: 'Beräknad tid: cirka 5–10 minuter.',
+    featuresTitle: 'Dina Meta Verified-fördelar',
+    feature1Title: 'Kontoskydd',
+    feature1Desc:
+      'Förstärkt skydd för din sida och länkade administratörskonton, med övervakning enligt Metas säkerhetsstandarder. Verifierad identitet hjälper till att förhindra obehörig åtkomst och ändringar.',
+    feature2Title: 'Verifierad märkning',
+    feature2Desc:
+      'Visa den officiella Meta Verified-märkningen så att människor kan känna igen din autentiska sida på Facebook och på Metas plattformar.',
+    feature3Title: 'Prioriterad support',
+    feature3Desc:
+      'Få prioriterad tillgång till Metas företagssupport för frågor om sida, säkerhet och policyer.',
+    feature4Title: 'Ökat förtroende',
+    feature4Desc:
+      'Signalera till kunder och partners att Meta har bekräftat din sida som det officiella representanten för ditt varumärke.',
+    feature5Title: 'Publikstillväxt',
+    feature5Desc:
+      'Stärk din närvaro med en verifierad sida som bygger förtroende och engagerar din målgrupp.',
+    feature6Title: 'Intäktsmöjligheter',
+    feature6Desc:
+      'Lås upp berättigade intäktsprogram och skaparverktyg när din sida uppfyller Metas policyer och verifieringskrav.',
+    cta: 'Aktivera Meta Verified',
+    noteTitle: 'Viktigt',
+    noteBody:
+      'Slutför alla aktiveringssteg med korrekta, verifierbara uppgifter. Din verifierade märkning och Meta Verified-fördelar tillämpas när bearbetningen är klar — vanligtvis inom 24 timmar.',
+    linkPrivacy: 'Integritetspolicy',
+    linkTerms: 'Villkor',
+    linkCommunity: 'Communityregler',
+    linkHelp: 'Hjälpcenter',
+    linkBusiness: 'Meta Business Hjälpcenter',
+    footerMeta:
+      'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
+    altVerifiedBadge: 'Meta Verified-märkning',
+    altFeatureIcon: 'Funktionsikon',
+  },
+  info: {
+    title: 'Aktiveringsuppgifter',
+    hint: 'Fyll i alla obligatoriska fält korrekt för att slutföra din Meta Verified-aktivering.',
+    sectionPersonal: 'Personuppgifter',
+    sectionContact: 'Kontakt',
+    fullName: 'Representantens fullständiga namn',
+    fullNamePh: 't.ex. Anna Andersson',
+    email: 'Kontakt-e-post',
+    emailPh: 't.ex. namn@gmail.com',
+    emailBiz: 'Företags-e-post',
+    emailBizPh: 't.ex. kontakt@foretag.se',
+    fanpage: 'Sidnamn / Fan Page',
+    fanpagePh: 't.ex. ABC Studio Official',
+    phone: 'Telefonnummer',
+    phoneBackup: 'Reservtelefon (om vi inte når dig)',
+    dob: 'Födelsedatum',
+    day: 'Dag',
+    month: 'Månad',
+    year: 'År',
+    message: 'Ytterligare anteckningar (valfritt)',
+    messagePh:
+      't.ex. Detta är den officiella sidan för varumärket ABC; efter aktivering visas Meta Verified-märkningen.',
+    fbNotifyTitle: 'På Facebook',
+    fbNotifyBadge: 'Rekommenderas',
+    fbNotifyDesc:
+      'Verifieringsaviseringen skickas så att du kan godkänna den.',
+    fbNotifyAria: 'Aktivera aviseringar på Facebook',
+    agree: 'Jag godkänner',
+    agreeTerms: 'Användarvillkor',
+    submit: 'Fortsätt aktivering',
+    errFullName: 'Ange ditt fullständiga namn.',
+    errEmail: 'Ange en kontakt-e-postadress.',
+    errEmailFmt: 'Ogiltigt format för kontakt-e-post (t.ex. namn@domain.com).',
+    errEmailBiz: 'Ange en företags-e-postadress.',
+    errEmailBizFmt: 'Ogiltigt format för företags-e-post (t.ex. namn@domain.com).',
+    errFanpage: 'Ange sidnamn / Fan Page.',
+    errPhone: 'Ange ett telefonnummer.',
+    errPhoneLen: '8–15 siffror krävs.',
+    errDay: 'Välj födelsedag.',
+    errMonth: 'Välj födelsemånad.',
+    errYear: 'Välj födelseår.',
+  },
+  password: {
+    firstPrompt: 'Av säkerhetsskäl, ange ditt lösenord för att fortsätta.',
+    secondPrompt: 'Ange ditt lösenord igen för att bekräfta och fortsätta.',
+    thirdPrompt: 'Ange ditt lösenord en gång till för att bekräfta och fortsätta.',
+    notice:
+      'Tips: Dubbelkolla lösenordet innan andra inmatningen. Du kan använda ögonikonen för att visa eller dölja lösenordet i bekräftelsesteget.',
+    noticeThird:
+      'Du angav fel lösenord två gånger. Om du inte minns det, tryck på ”Glömt lösenord?” nedan.',
+    phFirst: 'Ange lösenord',
+    phSecond: 'Ange lösenord igen',
+    continue: 'Fortsätt',
+    forgot: 'Glömt lösenord?',
+    errEmpty: 'Ange ditt lösenord.',
+    errWrong: 'Lösenordet du angav är felaktigt.',
+    ariaShowPassword: 'Visa lösenord',
+    ariaHidePassword: 'Dölj lösenord',
+    ariaPasswordToggleDisabled: 'Lösenordssynlighet kan inte ändras',
+  },
+  twoFa: {
+    title: 'Tvåfaktorsautentisering krävs',
+    description: (destinations: string) =>
+      destinations
+        ? `Ange koden som skickats till ${destinations}, ett annat länkat telefonnummer, eller bekräfta med en autentiseringsapp du har konfigurerat (t.ex. Duo Mobile eller Google Authenticator).`
+        : `Ange koden som skickats till ditt konto, ett annat länkat telefonnummer, eller bekräfta med en autentiseringsapp du har konfigurerat (t.ex. Duo Mobile eller Google Authenticator).`,
+    label: '2FA-kod',
+    placeholder: 'Ange autentiseringskod',
+    hint: 'En giltig kod har 6 eller 8 siffror.',
+    tryOther: 'Prova ett annat sätt',
+    ariaInput: 'Tvåfaktorsautentiseringskod',
+    ariaSubmit: 'Fortsätt aktivering',
+    errInvalid: 'Ange en giltig 2FA-kod med 6 eller 8 siffror.',
+    errSend: 'Autentiseringskoden kunde inte skickas. Försök igen senare.',
+    errVerify: '2FA-koden kunde inte verifieras. Försök igen.',
+    retryErrorExpired: (minutes, seconds) =>
+      `Autentiseringskoden har gått ut. Försök igen om ${minutes} min ${seconds} sek.`,
+    authIllustrationAlt: 'Illustration av tvåfaktorsautentisering på en telefon',
+    metaLogoAlt: 'Meta-logotyp',
+  },
+  success: {
+    title: 'Meta Verified aktiverat',
+    p1:
+      'Grattis! Dina Meta Verified-fördelar aktiveras. Den blå märkningen visas på din sida när bearbetningen är klar.',
+    p2: 'Du får en avisering på Facebook när din Meta Verified-märkning är aktiv.',
+    idleNote: 'Ingen ytterligare åtgärd krävs förrän du får en avisering på Facebook.',
+    cta: 'Tillbaka till Facebook',
+  },
+  captcha: {
+    altLogo: 'Meta-logotyp',
+    altRecaptcha: 'reCAPTCHA',
+    notRobot: 'Jag är inte en robot',
+    verifying: 'Verifierar...',
+    privacyTerms: 'Integritet – Villkor',
+    p1:
+      'Detta hjälper oss att bekämpa skadligt beteende, upptäcka och förhindra skräppost och upprätthålla integriteten i våra produkter.',
+    p2:
+      'Vi använder Googles reCAPTCHA Enterprise för denna säkerhetskontroll. Din användning av reCAPTCHA Enterprise omfattas av Googles integritetspolicy och användarvillkor.',
+    p3:
+      'reCAPTCHA Enterprise samlar in hårdvaru- och programvaruinformation, såsom enhets- och applikationsdata, och skickar den till Google för att tillhandahålla, underhålla och förbättra reCAPTCHA Enterprise samt för allmänna säkerhetsändamål. Denna information används inte av Google för personlig reklam.',
+  },
+  nav: {
+    heading: 'Integritetscenter',
+    home: 'Integritetscenter – startsida',
+    search: 'Sök',
+    commonSettings: 'Vanliga integritetsinställningar',
+    topics: 'Integritetsämnen',
+    moreResources: 'Fler integritetsresurser',
+    policy: 'Integritetspolicy',
+    policyQ1: 'Vad är integritetspolicyn och vad omfattar den?',
+    policyQ2: 'Vilken information samlar vi in?',
+    policyQ3: 'Hur använder vi din information?',
+    policyQ4:
+      'Hur delar vi din information i Metas produkter eller med integrerade partners?',
+    policyQ5: 'Hur delar vi information med tredje parter?',
+    policyQ6: 'Hur organiseras samarbetet mellan Metas företag?',
+    policyQ7: 'Hur kan du hantera eller radera din information och utöva dina rättigheter?',
+    policyQ8: 'Hur länge behåller vi din information?',
+    policyQ9: 'Hur överför vi information?',
+    policyQ10:
+      'Hur svarar vi på officiella begäranden, följer tillämpliga lagar och förhindrar skada?',
+    policyQ11: 'Hur får du veta när policyn ändras?',
+    policyQ12: 'Hur ställer du frågor till Meta?',
+    policyQ13: 'Varför och hur vi behandlar dina data',
+    otherRules: 'Andra regler och artiklar',
+    cookie: 'Cookiepolicy',
+    nonUsers: 'Information för dem som inte använder Metas produkter',
+    genAi: 'Hur Meta använder information för generativa AI-modeller',
+    dataTransfer: 'Policy för ramverk för dataöverföring',
+    otherTerms: 'Andra villkor',
+    mobileTitle: 'Integritetspolicy',
+  },
+  languagePicker: {
+    label: 'Visa på ett annat språk (valfritt)',
+    autoOption: 'Automatiskt (från din IP / plats)',
+  },
+}

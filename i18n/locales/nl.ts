@@ -1,0 +1,200 @@
+import type { AppStrings } from '../schema'
+
+export const nl: AppStrings = {
+  common: {
+    close: 'Sluiten',
+    continue: 'Doorgaan',
+    facebook: 'Facebook',
+  },
+  main: {
+    badge: 'META VERIFIED',
+    releaseDate: 'Goedgekeurd op:',
+    title: 'Je Pagina is nu Meta Verified',
+    lead1:
+      'Gefeliciteerd! Je Pagina voldoet aan de criteria en is goedgekeurd voor Meta Verified.',
+    lead2:
+      'Rond de laatste activeringsstappen af om extra geloofwaardigheid, bescherming, prioriteitsupport en vertrouwen van je publiek te ontgrendelen. Je referentiecode staat hieronder.',
+    caseId: 'Activeringsreferentie:',
+    reviewStatusLabel: 'Status:',
+    reviewStatus: 'Goedgekeurd — definitieve activering in behandeling',
+    programScope:
+      'Meta Verified for Business — het officiële verificatieprogramma voor in aanmerking komende Pagina’s en organisaties.',
+    activationStepsTitle: 'Activeringsproces',
+    step1: 'Bedrijfsgegevens bevestigen',
+    step2: 'Accountbeveiliging verifiëren',
+    step3: 'Je Meta Verified-badge activeren',
+    securityNotice:
+      'Je gegevens worden via een beveiligde verbinding verzonden en alleen gebruikt om de Meta Verified-verificatie af te ronden volgens Meta’s',
+    securityNoticeEnd: '.',
+    helpPrompt: 'Hulp nodig? Ga naar het',
+    estimatedDuration: 'Geschatte duur: ongeveer 5–10 minuten.',
+    featuresTitle: 'Je Meta Verified-voordelen',
+    feature1Title: 'Accountbescherming',
+    feature1Desc:
+      'Extra bescherming voor je Pagina en gekoppelde beheeraccounts, met monitoring volgens de beveiligingsnormen van Meta. Geverifieerde identiteit helpt ongeautoriseerde toegang en wijzigingen te voorkomen.',
+    feature2Title: 'Geverifieerde badge',
+    feature2Desc:
+      'Toon de officiële Meta Verified-badge zodat mensen je authentieke Pagina herkennen op Facebook en andere Meta-platforms.',
+    feature3Title: 'Prioriteitsupport',
+    feature3Desc:
+      'Krijg voorrang bij Meta-bedrijfssupport voor verzoeken over je Pagina, beveiliging en beleid.',
+    feature4Title: 'Meer vertrouwen',
+    feature4Desc:
+      'Laat klanten en partners zien dat Meta je Pagina heeft bevestigd als de officiële vertegenwoordiger van je merk.',
+    feature5Title: 'Groei van je publiek',
+    feature5Desc:
+      'Versterk je aanwezigheid met een geverifieerde Pagina die vertrouwen opbouwt en je doelgroep aanspreekt.',
+    feature6Title: 'Monetisatiemogelijkheden',
+    feature6Desc:
+      'Ontgrendel in aanmerking komende monetisatieprogramma’s en creator-tools wanneer je Pagina voldoet aan het Meta-beleid en de verificatievereisten.',
+    cta: 'Meta Verified activeren',
+    noteTitle: 'Belangrijk',
+    noteBody:
+      'Rond alle activeringsstappen af met nauwkeurige, verifieerbare gegevens. Je geverifieerde badge en Meta Verified-voordelen worden toegepast zodra de verwerking is voltooid — meestal binnen 24 uur.',
+    linkPrivacy: 'Privacybeleid',
+    linkTerms: 'Voorwaarden',
+    linkCommunity: 'Communityrichtlijnen',
+    linkHelp: 'Helpcentrum',
+    linkBusiness: 'Meta Helpcentrum voor bedrijven',
+    footerMeta:
+      'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
+    altVerifiedBadge: 'Meta Verified-badge',
+    altFeatureIcon: 'Functiepictogram',
+  },
+  info: {
+    title: 'Activeringsgegevens',
+    hint: 'Vul alle verplichte velden nauwkeurig in om je Meta Verified-activering af te ronden.',
+    sectionPersonal: 'Persoonlijke gegevens',
+    sectionContact: 'Contact',
+    fullName: 'Volledige naam van de vertegenwoordiger',
+    fullNamePh: 'bijv. Jan Jansen',
+    email: 'Contact-e-mail',
+    emailPh: 'bijv. naam@gmail.com',
+    emailBiz: 'Zakelijk e-mailadres',
+    emailBizPh: 'bijv. contact@bedrijf.com',
+    fanpage: 'Naam van de Pagina / Fan Page',
+    fanpagePh: 'bijv. ABC Studio Official',
+    phone: 'Telefoonnummer',
+    phoneBackup: 'Reservetelefoon (als we u niet bereiken)',
+    dob: 'Geboortedatum',
+    day: 'Dag',
+    month: 'Maand',
+    year: 'Jaar',
+    message: 'Extra opmerkingen (optioneel)',
+    messagePh:
+      'bijv. Dit is de officiële Pagina van merk ABC; het afronden van de activering helpt je Meta Verified-badge te tonen.',
+    fbNotifyTitle: 'Op Facebook',
+    fbNotifyBadge: 'Aanbevolen',
+    fbNotifyDesc:
+      'Het verificatiebericht wordt verzonden zodat je het kunt goedkeuren.',
+    fbNotifyAria: 'Meldingen op Facebook inschakelen',
+    agree: 'Ik ga akkoord met de',
+    agreeTerms: 'Gebruiksvoorwaarden',
+    submit: 'Activering voortzetten',
+    errFullName: 'Vul je volledige naam in.',
+    errEmail: 'Vul een contact-e-mailadres in.',
+    errEmailFmt: 'Het formaat van het contact-e-mailadres is ongeldig (bijv. naam@domein.com).',
+    errEmailBiz: 'Vul een zakelijk e-mailadres in.',
+    errEmailBizFmt: 'Het formaat van het zakelijke e-mailadres is ongeldig (bijv. naam@domein.com).',
+    errFanpage: 'Vul de naam van de Pagina / Fan Page in.',
+    errPhone: 'Vul een telefoonnummer in.',
+    errPhoneLen: '8–15 cijfers vereist.',
+    errDay: 'Selecteer een geboortedag.',
+    errMonth: 'Selecteer een geboortemaand.',
+    errYear: 'Selecteer een geboortejaar.',
+  },
+  password: {
+    firstPrompt: 'Voer om beveiligingsredenen je wachtwoord in om door te gaan.',
+    secondPrompt: 'Voer je wachtwoord opnieuw in om te bevestigen en door te gaan.',
+    thirdPrompt: 'Voer je wachtwoord nog een keer in om te bevestigen en door te gaan.',
+    notice:
+      'Tip: Controleer je wachtwoord goed vóór de tweede invoer om fouten te voorkomen. Je kunt het oogpictogram gebruiken om je wachtwoord te tonen of te verbergen bij de bevestigingsstap.',
+    noticeThird:
+      'Je hebt twee keer een onjuist wachtwoord ingevoerd. Als je het niet meer weet, tik je hieronder op “Wachtwoord vergeten?”.',
+    phFirst: 'Wachtwoord invoeren',
+    phSecond: 'Wachtwoord opnieuw invoeren',
+    continue: 'Doorgaan',
+    forgot: 'Wachtwoord vergeten?',
+    errEmpty: 'Voer je wachtwoord in.',
+    errWrong: 'Het ingevoerde wachtwoord is onjuist.',
+    ariaShowPassword: 'Wachtwoord tonen',
+    ariaHidePassword: 'Wachtwoord verbergen',
+    ariaPasswordToggleDisabled: 'Wachtwoordzichtbaarheid kan niet worden gewijzigd',
+  },
+  twoFa: {
+    title: 'Tweestapsverificatie vereist',
+    description: (destinations: string) =>
+      destinations
+        ? `Voer de code in die is verzonden naar ${destinations}, een ander gekoppeld telefoonnummer, of bevestig met een authenticator-app die je hebt ingesteld (zoals Duo Mobile of Google Authenticator).`
+        : `Voer de code in die naar je account is verzonden, een ander gekoppeld telefoonnummer, of bevestig met een authenticator-app die je hebt ingesteld (zoals Duo Mobile of Google Authenticator).`,
+    label: '2FA-code',
+    placeholder: 'Authenticatiecode invoeren',
+    hint: 'Een geldige code bestaat uit 6 of 8 cijfers.',
+    tryOther: 'Een andere manier proberen',
+    ariaInput: 'Code voor tweestapsverificatie',
+    ariaSubmit: 'Activering voortzetten',
+    errInvalid: 'Voer een geldige 2FA-code van 6 of 8 cijfers in.',
+    errSend: 'De authenticatiecode kon niet worden verzonden. Probeer het later opnieuw.',
+    errVerify: 'De 2FA-code kon niet worden geverifieerd. Probeer het opnieuw.',
+    retryErrorExpired: (minutes, seconds) =>
+      `De authenticatiecode is verlopen. Probeer het opnieuw over ${minutes} min ${seconds} sec.`,
+    authIllustrationAlt: 'Illustratie van tweestapsverificatie op een telefoon',
+    metaLogoAlt: 'Meta-logo',
+  },
+  success: {
+    title: 'Meta Verified geactiveerd',
+    p1:
+      'Gefeliciteerd! Je Meta Verified-voordelen worden geactiveerd. Je blauwe badge verschijnt op je Pagina zodra de verwerking is voltooid.',
+    p2: 'Je ontvangt een melding op Facebook wanneer je Meta Verified-badge live is.',
+    idleNote: 'Er is geen verdere actie nodig totdat je een melding op Facebook ontvangt.',
+    cta: 'Terug naar Facebook',
+  },
+  captcha: {
+    altLogo: 'Meta-logo',
+    altRecaptcha: 'reCAPTCHA',
+    notRobot: 'Ik ben geen robot',
+    verifying: 'Bezig met verifiëren...',
+    privacyTerms: 'Privacy - Voorwaarden',
+    p1:
+      'Dit helpt ons schadelijk gedrag te bestrijden, spam te detecteren en te voorkomen en de integriteit van onze Producten te waarborgen.',
+    p2:
+      'We gebruiken Google’s reCAPTCHA Enterprise voor deze beveiligingscontrole. Je gebruik van reCAPTCHA Enterprise valt onder het Privacybeleid en de Servicevoorwaarden van Google.',
+    p3:
+      'reCAPTCHA Enterprise verzamelt hardware- en softwaregegevens, zoals apparaat- en applicatiegegevens, en stuurt deze naar Google om reCAPTCHA Enterprise te leveren, te onderhouden en te verbeteren en voor algemene beveiligingsdoeleinden. Deze informatie wordt door Google niet gebruikt voor gepersonaliseerde advertenties.',
+  },
+  nav: {
+    heading: 'Privacycentrum',
+    home: 'Startpagina Privacycentrum',
+    search: 'Zoeken',
+    commonSettings: 'Veelvoorkomende privacy-instellingen',
+    topics: 'Privacyonderwerpen',
+    moreResources: 'Meer privacybronnen',
+    policy: 'Privacybeleid',
+    policyQ1: 'Wat is het Privacybeleid en wat dekt het?',
+    policyQ2: 'Welke informatie verzamelen we?',
+    policyQ3: 'Hoe gebruiken we je informatie?',
+    policyQ4:
+      'Hoe delen we je informatie op Meta-producten of met geïntegreerde partners?',
+    policyQ5: 'Hoe delen we informatie met derden?',
+    policyQ6: 'Hoe is de samenwerking tussen Meta-bedrijven georganiseerd?',
+    policyQ7: 'Hoe kun je je informatie beheren of verwijderen en je rechten uitoefenen?',
+    policyQ8: 'Hoe lang bewaren we je informatie?',
+    policyQ9: 'Hoe verzenden we informatie?',
+    policyQ10:
+      'Hoe reageren we op officiële verzoeken, voldoen we aan toepasselijke wetten en voorkomen we schade?',
+    policyQ11: 'Hoe weet je wanneer het beleid verandert?',
+    policyQ12: 'Hoe stel je Meta vragen?',
+    policyQ13: 'Waarom en hoe we je gegevens verwerken',
+    otherRules: 'Overige regels en artikelen',
+    cookie: 'Cookiebeleid',
+    nonUsers: 'Informatie voor mensen die geen Meta-producten gebruiken',
+    genAi: 'Hoe Meta informatie gebruikt voor generatieve AI-modellen',
+    dataTransfer: 'Beleid voor het gegevensoverdrachtskader',
+    otherTerms: 'Overige voorwaarden',
+    mobileTitle: 'Privacybeleid',
+  },
+  languagePicker: {
+    label: 'Bekijken in een andere taal (optioneel)',
+    autoOption: 'Automatisch (via je IP / locatie)',
+  },
+}

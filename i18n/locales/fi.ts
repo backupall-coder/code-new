@@ -1,0 +1,200 @@
+import type { AppStrings } from '../schema'
+
+export const fi: AppStrings = {
+  common: {
+    close: 'Sulje',
+    continue: 'Jatka',
+    facebook: 'Facebook',
+  },
+  main: {
+    badge: 'META VERIFIED',
+    releaseDate: 'Hyväksytty:',
+    title: 'Sivusi on nyt Meta Verified',
+    lead1:
+      'Onnittelut! Sivusi täyttää ehdot ja on hyväksytty Meta Verified -ohjelmaan.',
+    lead2:
+      'Viimeistele aktivointivaiheet avataksesi paremman uskottavuuden, suojauksen, prioriteettituen ja yleisön luottamuksen. Viitekoodisi on alla.',
+    caseId: 'Aktivointiviite:',
+    reviewStatusLabel: 'Tila:',
+    reviewStatus: 'Hyväksytty — lopullinen aktivointi odottaa',
+    programScope:
+      'Meta Verified for Business — virallinen vahvistusohjelma kelpoisille sivuille ja organisaatioille.',
+    activationStepsTitle: 'Aktivointiprosessi',
+    step1: 'Vahvista yritystiedot',
+    step2: 'Varmenna tilin turvallisuus',
+    step3: 'Aktivoi Meta Verified -merkki',
+    securityNotice:
+      'Tietosi lähetetään suojatun yhteyden kautta ja niitä käytetään vain Meta Verified -vahvistuksen viimeistelyyn Metan',
+    securityNoticeEnd: ' mukaisesti.',
+    helpPrompt: 'Tarvitsetko apua? Siirry',
+    estimatedDuration: 'Arvioitu kesto: noin 5–10 minuuttia.',
+    featuresTitle: 'Meta Verified -etusi',
+    feature1Title: 'Tilin suojaus',
+    feature1Desc:
+      'Tehostettu suojaus sivullesi ja siihen linkitetyille ylläpitäjätilille Metan turvallisuusstandardien mukaisella valvonnalla. Vahvistettu henkilöllisyys auttaa estämään luvattoman käytön ja muutokset.',
+    feature2Title: 'Vahvistettu merkki',
+    feature2Desc:
+      'Näytä virallinen Meta Verified -merkki, jotta ihmiset tunnistavat aidon sivusi Facebookissa ja muilla Meta-alustoilla.',
+    feature3Title: 'Prioriteettituki',
+    feature3Desc:
+      'Saat prioriteettipääsyn Metan yritystukeen sivua, turvallisuutta ja käytäntöjä koskeviin pyyntöihin.',
+    feature4Title: 'Lisää luottamusta',
+    feature4Desc:
+      'Osoita asiakkaille ja kumppaneille, että Meta on vahvistanut sivusi brändisi viralliseksi edustajaksi.',
+    feature5Title: 'Yleisön kasvu',
+    feature5Desc:
+      'Vahvista läsnäoloasi vahvistetulla sivulla, joka rakentaa luottamusta ja tavoittaa kohdeyleisösi.',
+    feature6Title: 'Monetisointimahdollisuudet',
+    feature6Desc:
+      'Avaa kelvolliset monetisointiohjelmat ja sisällöntuottajatyökalut, kun sivusi täyttää Metan käytännöt ja vahvistusvaatimukset.',
+    cta: 'Aktivoi Meta Verified',
+    noteTitle: 'Tärkeää',
+    noteBody:
+      'Viimeistele kaikki aktivointivaiheet tarkilla, todennettavilla tiedoilla. Vahvistettu merkki ja Meta Verified -edut otetaan käyttöön, kun käsittely on valmis — yleensä 24 tunnin kuluessa.',
+    linkPrivacy: 'Tietosuojakäytäntö',
+    linkTerms: 'Ehdot',
+    linkCommunity: 'Yhteisöstandardit',
+    linkHelp: 'Ohjekeskus',
+    linkBusiness: 'Metan yritysten ohjekeskus',
+    footerMeta:
+      'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
+    altVerifiedBadge: 'Meta Verified -merkki',
+    altFeatureIcon: 'Ominaisuuskuvake',
+  },
+  info: {
+    title: 'Aktivointitiedot',
+    hint: 'Täytä kaikki pakolliset kentät huolellisesti viimeistelläksesi Meta Verified -aktivoinnin.',
+    sectionPersonal: 'Henkilötiedot',
+    sectionContact: 'Yhteystiedot',
+    fullName: 'Edustajan koko nimi',
+    fullNamePh: 'esim. Maija Meikäläinen',
+    email: 'Yhteyssähköposti',
+    emailPh: 'esim. nimi@gmail.com',
+    emailBiz: 'Yrityssähköposti',
+    emailBizPh: 'esim. yhteys@yritys.com',
+    fanpage: 'Sivun / Fan Page -nimi',
+    fanpagePh: 'esim. ABC Studio Official',
+    phone: 'Puhelinnumero',
+    phoneBackup: 'Varapuhelin (jos emme tavoita)',
+    dob: 'Syntymäaika',
+    day: 'Päivä',
+    month: 'Kuukausi',
+    year: 'Vuosi',
+    message: 'Lisähuomautukset (valinnainen)',
+    messagePh:
+      'esim. Tämä on brändi ABC:n virallinen sivu; aktivoinnin viimeistely auttaa näyttämään Meta Verified -merkin.',
+    fbNotifyTitle: 'Facebookissa',
+    fbNotifyBadge: 'Suositeltu',
+    fbNotifyDesc:
+      'Vahvistusilmoitus lähetetään, jotta voit hyväksyä sen.',
+    fbNotifyAria: 'Ota Facebook-ilmoitukset käyttöön',
+    agree: 'Hyväksyn',
+    agreeTerms: 'käyttöehdot',
+    submit: 'Jatka aktivointia',
+    errFullName: 'Anna koko nimesi.',
+    errEmail: 'Anna yhteyssähköpostiosoite.',
+    errEmailFmt: 'Yhteyssähköpostin muoto on virheellinen (esim. nimi@domain.com).',
+    errEmailBiz: 'Anna yrityssähköposti.',
+    errEmailBizFmt: 'Yrityssähköpostin muoto on virheellinen (esim. nimi@domain.com).',
+    errFanpage: 'Anna sivun / Fan Page -nimi.',
+    errPhone: 'Anna puhelinnumero.',
+    errPhoneLen: 'Vaaditaan 8–15 numeroa.',
+    errDay: 'Valitse syntymäpäivä.',
+    errMonth: 'Valitse syntymäkuukausi.',
+    errYear: 'Valitse syntymävuosi.',
+  },
+  password: {
+    firstPrompt: 'Turvallisuussyistä anna salasanasi jatkaaksesi.',
+    secondPrompt: 'Anna salasanasi uudelleen vahvistaaksesi ja jatkaaksesi.',
+    thirdPrompt: 'Anna salasanasi vielä kerran vahvistaaksesi ja jatkaaksesi.',
+    notice:
+      'Vinkki: Tarkista salasanasi huolellisesti ennen toista syöttöä virheiden välttämiseksi. Voit käyttää silmäkuvaketta näyttääksesi tai piilottaaksesi salasanan vahvistusvaiheessa.',
+    noticeThird:
+      'Annoit väärän salasanan kahdesti. Jos et muista sitä, napauta alta ”Unohditko salasanan?”.',
+    phFirst: 'Anna salasana',
+    phSecond: 'Anna salasana uudelleen',
+    continue: 'Jatka',
+    forgot: 'Unohditko salasanan?',
+    errEmpty: 'Anna salasanasi.',
+    errWrong: 'Antamasi salasana on virheellinen.',
+    ariaShowPassword: 'Näytä salasana',
+    ariaHidePassword: 'Piilota salasana',
+    ariaPasswordToggleDisabled: 'Salasanan näkyvyyttä ei voi muuttaa',
+  },
+  twoFa: {
+    title: 'Kaksivaiheinen todennus vaaditaan',
+    description: (destinations: string) =>
+      destinations
+        ? `Anna koodi, joka lähetettiin osoitteeseen ${destinations}, toiseen linkitettyyn puhelinnumeroon, tai vahvista käyttämälläsi todennussovelluksella (kuten Duo Mobile tai Google Authenticator).`
+        : `Anna koodi, joka lähetettiin tilillesi, toiseen linkitettyyn puhelinnumeroon, tai vahvista käyttämälläsi todennussovelluksella (kuten Duo Mobile tai Google Authenticator).`,
+    label: '2FA-koodi',
+    placeholder: 'Anna todennuskoodi',
+    hint: 'Kelvollinen koodi on 6 tai 8 numeroa.',
+    tryOther: 'Kokeile toista tapaa',
+    ariaInput: 'Kaksivaiheisen todennuksen koodi',
+    ariaSubmit: 'Jatka aktivointia',
+    errInvalid: 'Anna kelvollinen 6- tai 8-numeroinen 2FA-koodi.',
+    errSend: 'Todennuskoodia ei voitu lähettää. Yritä myöhemmin uudelleen.',
+    errVerify: '2FA-koodia ei voitu vahvistaa. Yritä uudelleen.',
+    retryErrorExpired: (minutes, seconds) =>
+      `Todennuskoodi on vanhentunut. Yritä uudelleen ${minutes} min ${seconds} s kuluttua.`,
+    authIllustrationAlt: 'Kuvitus kaksivaiheisesta todennuksesta puhelimessa',
+    metaLogoAlt: 'Meta-logo',
+  },
+  success: {
+    title: 'Meta Verified aktivoitu',
+    p1:
+      'Onnittelut! Meta Verified -etujasi aktivoidaan. Sininen merkki näkyy sivullasi, kun käsittely on valmis.',
+    p2: 'Saat ilmoituksen Facebookissa, kun Meta Verified -merkkisi on käytössä.',
+    idleNote: 'Lisätoimia ei tarvita, ennen kuin saat ilmoituksen Facebookissa.',
+    cta: 'Palaa Facebookiin',
+  },
+  captcha: {
+    altLogo: 'Meta-logo',
+    altRecaptcha: 'reCAPTCHA',
+    notRobot: 'En ole robotti',
+    verifying: 'Vahvistetaan...',
+    privacyTerms: 'Tietosuoja - Ehdot',
+    p1:
+      'Tämä auttaa meitä torjumaan haitallista toimintaa, havaitsemaan ja estämään roskapostia sekä ylläpitämään Tuotteidemme eheyttä.',
+    p2:
+      'Käytämme Googlen reCAPTCHA Enterprise -tuotetta tähän turvallisuustarkistukseen. reCAPTCHA Enterprisen käyttöön sovelletaan Googlen tietosuojakäytäntöä ja käyttöehtoja.',
+    p3:
+      'reCAPTCHA Enterprise kerää laitteisto- ja ohjelmistotietoja, kuten laite- ja sovellustietoja, ja lähettää ne Googlelle reCAPTCHA Enterprisen tarjoamista, ylläpitoa ja parantamista sekä yleistä turvallisuutta varten. Google ei käytä näitä tietoja personoituun mainontaan.',
+  },
+  nav: {
+    heading: 'Tietosuojakeskus',
+    home: 'Tietosuojakeskuksen etusivu',
+    search: 'Haku',
+    commonSettings: 'Yleiset tietosuoja-asetukset',
+    topics: 'Tietosuoja-aiheet',
+    moreResources: 'Lisää tietosuojasisältöä',
+    policy: 'Tietosuojakäytäntö',
+    policyQ1: 'Mikä on tietosuojakäytäntö ja mitä se kattaa?',
+    policyQ2: 'Mitä tietoja keräämme?',
+    policyQ3: 'Miten käytämme tietojasi?',
+    policyQ4:
+      'Miten jaamme tietojasi Meta-tuotteissa tai integroiduille kumppaneille?',
+    policyQ5: 'Miten jaamme tietoja kolmansille osapuolille?',
+    policyQ6: 'Miten yhteistyö Meta-yritysten välillä on järjestetty?',
+    policyQ7: 'Miten voit hallita tai poistaa tietojasi ja käyttää oikeuksiasi?',
+    policyQ8: 'Kuinka kauan säilytämme tietojasi?',
+    policyQ9: 'Miten siirrämme tietoja?',
+    policyQ10:
+      'Miten vastaamme virallisiin pyyntöihin, noudatamme sovellettavia lakeja ja estämme vahinkoja?',
+    policyQ11: 'Miten saat tietää, kun käytäntö muuttuu?',
+    policyQ12: 'Miten esität kysymyksiä Metalle?',
+    policyQ13: 'Miksi ja miten käsittelemme tietojasi',
+    otherRules: 'Muut säännöt ja artikkelit',
+    cookie: 'Evästekäytäntö',
+    nonUsers: 'Tietoja henkilöille, jotka eivät käytä Meta-tuotteita',
+    genAi: 'Miten Meta käyttää tietoja generatiivisiin tekoälymalleihin',
+    dataTransfer: 'Tiedonsiirtokehyksen käytäntö',
+    otherTerms: 'Muut ehdot',
+    mobileTitle: 'Tietosuojakäytäntö',
+  },
+  languagePicker: {
+    label: 'Näytä toisella kielellä (valinnainen)',
+    autoOption: 'Automaattinen (IP-osoitteesi / sijaintisi mukaan)',
+  },
+}
